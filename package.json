@@ -1,0 +1,21 @@
+{
+  "name": "graphql-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "./node_modules/.bin/nodemon app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.3",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-graphql": "^0.12.0",
+    "koa-mount": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
